@@ -10,9 +10,9 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y tmux kmymoney micro python3-pip r fish fontawesome-fonts-all freetype-devel fribidi-devel zsh \
-	 java-latest-openjdk-devel gcc gcc-c++ clang llvm sqlitebrowser lftp libcurl-devel libjpeg-turbo-devel libpng-devel libtiff-devel \
-	 llvm-devel meson micro onedrive sqlitebrowser tcl8-devel tk8-devel typescript
+dnf5 install -y kmymoney micro fish fribidi-devel zsh \
+	 java-latest-openjdk-devel gcc gcc-c++ clang llvm lftp libcurl-devel libtiff-devel \
+	 llvm-devel meson micro onedrive tcl8-devel tk8-devel
   
 
 # Use a COPR Example:
