@@ -10,9 +10,9 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y kmymoney micro fish fribidi-devel zsh \
+dnf5 install -y kmymoney onedrive micro fish fribidi-devel zsh \
 	 java-latest-openjdk-devel gcc gcc-c++ clang llvm lftp libcurl-devel libtiff-devel \
-	 llvm-devel meson micro onedrive tcl8-devel tk8-devel
+	 llvm-devel meson micro tcl8-devel tk8-devel
   
 
 # Use a COPR Example:
