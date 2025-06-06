@@ -3,7 +3,7 @@ FROM scratch AS ctx
 COPY build_files /
 
 # Base Image
-FROM ghcr.io/ublue-os/bluefin-dx-asus-nvidia-open:latest
+FROM ghcr.io/ublue-os/bluefin-dx-hwe-nvidia-open:latest
 # FROM ghcr.io/ublue-os/bluefin:stable
 
 ## Other possible base images include:
