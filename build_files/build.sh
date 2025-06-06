@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y tmux kmymoney micro fish fontawesome-fonts-all freetype-devel fribidi-devel zsh \
+dnf5 install -y tmux kmymoney micro fontawesome-fonts-all freetype-devel fribidi-devel \
 	 java-latest-openjdk-devel lftp libcurl-devel libjpeg-turbo-devel libpng-devel libtiff-devel \
 	 meson micro tcl8-devel tk8-devel typescript
   
@@ -21,9 +21,9 @@ dnf5 install -y tmux kmymoney micro fish fontawesome-fonts-all freetype-devel fr
 #dnf5 -y copr enable ublue-os/staging
 
 # Install a rstudio from a COPR repository
-dnf5 -y copr enable iucar/rstudio
-dnf5 -y install rstudio-desktop
-dnf5 -y copr disable iucar/rstudio
+#dnf5 -y copr enable iucar/rstudio
+#dnf5 -y install rstudio-desktop
+#dnf5 -y copr disable iucar/rstudio
 
 # Install cosmic desktop from a COPR repository
 #dnf5 -y copr enable ryanabx/cosmic-epoch
